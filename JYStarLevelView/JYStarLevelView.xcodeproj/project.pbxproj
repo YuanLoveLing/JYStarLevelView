@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7200EAD1EBB142C0022757A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7200EAC1EBB142C0022757A /* AppDelegate.swift */; };
+		D7200EAF1EBB142C0022757A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7200EAE1EBB142C0022757A /* ViewController.swift */; };
+		D7200EB21EBB142C0022757A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7200EB01EBB142C0022757A /* Main.storyboard */; };
+		D7200EB41EBB142C0022757A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7200EB31EBB142C0022757A /* Assets.xcassets */; };
+		D7200EB71EBB142C0022757A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7200EB51EBB142C0022757A /* LaunchScreen.storyboard */; };
+		D7200EC21EBB142C0022757A /* JYStarLevelViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7200EC11EBB142C0022757A /* JYStarLevelViewTests.swift */; };
+		D7200ECD1EBB142C0022757A /* JYStarLevelViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7200ECC1EBB142C0022757A /* JYStarLevelViewUITests.swift */; };
+		D7200EDC1EBB14930022757A /* JYStarLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7200EDB1EBB14930022757A /* JYStarLevelView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7200EBE1EBB142C0022757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7200EA11EBB142C0022757A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7200EA81EBB142C0022757A;
+			remoteInfo = JYStarLevelView;
+		};
+		D7200EC91EBB142C0022757A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7200EA11EBB142C0022757A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7200EA81EBB142C0022757A;
+			remoteInfo = JYStarLevelView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7200EA91EBB142C0022757A /* JYStarLevelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYStarLevelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7200EAC1EBB142C0022757A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7200EAE1EBB142C0022757A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7200EB11EBB142C0022757A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7200EB31EBB142C0022757A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7200EB61EBB142C0022757A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7200EB81EBB142C0022757A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7200EBD1EBB142C0022757A /* JYStarLevelViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYStarLevelViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7200EC11EBB142C0022757A /* JYStarLevelViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYStarLevelViewTests.swift; sourceTree = "<group>"; };
+		D7200EC31EBB142C0022757A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7200EC81EBB142C0022757A /* JYStarLevelViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYStarLevelViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7200ECC1EBB142C0022757A /* JYStarLevelViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYStarLevelViewUITests.swift; sourceTree = "<group>"; };
+		D7200ECE1EBB142C0022757A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7200EDB1EBB14930022757A /* JYStarLevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYStarLevelView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7200EA61EBB142C0022757A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7200EBA1EBB142C0022757A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7200EC51EBB142C0022757A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7200EA01EBB142C0022757A = {
+			isa = PBXGroup;
+			children = (
+				D7200EAB1EBB142C0022757A /* JYStarLevelView */,
+				D7200EC01EBB142C0022757A /* JYStarLevelViewTests */,
+				D7200ECB1EBB142C0022757A /* JYStarLevelViewUITests */,
+				D7200EAA1EBB142C0022757A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7200EAA1EBB142C0022757A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7200EA91EBB142C0022757A /* JYStarLevelView.app */,
+				D7200EBD1EBB142C0022757A /* JYStarLevelViewTests.xctest */,
+				D7200EC81EBB142C0022757A /* JYStarLevelViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7200EAB1EBB142C0022757A /* JYStarLevelView */ = {
+			isa = PBXGroup;
+			children = (
+				D7200EDA1EBB147F0022757A /* Library */,
+				D7200EAC1EBB142C0022757A /* AppDelegate.swift */,
+				D7200EAE1EBB142C0022757A /* ViewController.swift */,
+				D7200EB01EBB142C0022757A /* Main.storyboard */,
+				D7200EB31EBB142C0022757A /* Assets.xcassets */,
+				D7200EB51EBB142C0022757A /* LaunchScreen.storyboard */,
+				D7200EB81EBB142C0022757A /* Info.plist */,
+			);
+			path = JYStarLevelView;
+			sourceTree = "<group>";
+		};
+		D7200EC01EBB142C0022757A /* JYStarLevelViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7200EC11EBB142C0022757A /* JYStarLevelViewTests.swift */,
+				D7200EC31EBB142C0022757A /* Info.plist */,
+			);
+			path = JYStarLevelViewTests;
+			sourceTree = "<group>";
+		};
+		D7200ECB1EBB142C0022757A /* JYStarLevelViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7200ECC1EBB142C0022757A /* JYStarLevelViewUITests.swift */,
+				D7200ECE1EBB142C0022757A /* Info.plist */,
+			);
+			path = JYStarLevelViewUITests;
+			sourceTree = "<group>";
+		};
+		D7200EDA1EBB147F0022757A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D7200EDB1EBB14930022757A /* JYStarLevelView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7200EA81EBB142C0022757A /* JYStarLevelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7200ED11EBB142C0022757A /* Build configuration list for PBXNativeTarget "JYStarLevelView" */;
+			buildPhases = (
+				D7200EA51EBB142C0022757A /* Sources */,
+				D7200EA61EBB142C0022757A /* Frameworks */,
+				D7200EA71EBB142C0022757A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYStarLevelView;
+			productName = JYStarLevelView;
+			productReference = D7200EA91EBB142C0022757A /* JYStarLevelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7200EBC1EBB142C0022757A /* JYStarLevelViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7200ED41EBB142C0022757A /* Build configuration list for PBXNativeTarget "JYStarLevelViewTests" */;
+			buildPhases = (
+				D7200EB91EBB142C0022757A /* Sources */,
+				D7200EBA1EBB142C0022757A /* Frameworks */,
+				D7200EBB1EBB142C0022757A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7200EBF1EBB142C0022757A /* PBXTargetDependency */,
+			);
+			name = JYStarLevelViewTests;
+			productName = JYStarLevelViewTests;
+			productReference = D7200EBD1EBB142C0022757A /* JYStarLevelViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7200EC71EBB142C0022757A /* JYStarLevelViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7200ED71EBB142C0022757A /* Build configuration list for PBXNativeTarget "JYStarLevelViewUITests" */;
+			buildPhases = (
+				D7200EC41EBB142C0022757A /* Sources */,
+				D7200EC51EBB142C0022757A /* Frameworks */,
+				D7200EC61EBB142C0022757A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7200ECA1EBB142C0022757A /* PBXTargetDependency */,
+			);
+			name = JYStarLevelViewUITests;
+			productName = JYStarLevelViewUITests;
+			productReference = D7200EC81EBB142C0022757A /* JYStarLevelViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7200EA11EBB142C0022757A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "靳志远";
+				TargetAttributes = {
+					D7200EA81EBB142C0022757A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y2S2575EP7;
+						ProvisioningStyle = Automatic;
+					};
+					D7200EBC1EBB142C0022757A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y2S2575EP7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7200EA81EBB142C0022757A;
+					};
+					D7200EC71EBB142C0022757A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y2S2575EP7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7200EA81EBB142C0022757A;
+					};
+				};
+			};
+			buildConfigurationList = D7200EA41EBB142C0022757A /* Build configuration list for PBXProject "JYStarLevelView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7200EA01EBB142C0022757A;
+			productRefGroup = D7200EAA1EBB142C0022757A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7200EA81EBB142C0022757A /* JYStarLevelView */,
+				D7200EBC1EBB142C0022757A /* JYStarLevelViewTests */,
+				D7200EC71EBB142C0022757A /* JYStarLevelViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7200EA71EBB142C0022757A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7200EB71EBB142C0022757A /* LaunchScreen.storyboard in Resources */,
+				D7200EB41EBB142C0022757A /* Assets.xcassets in Resources */,
+				D7200EB21EBB142C0022757A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7200EBB1EBB142C0022757A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7200EC61EBB142C0022757A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7200EA51EBB142C0022757A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7200EAF1EBB142C0022757A /* ViewController.swift in Sources */,
+				D7200EDC1EBB14930022757A /* JYStarLevelView.swift in Sources */,
+				D7200EAD1EBB142C0022757A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7200EB91EBB142C0022757A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7200EC21EBB142C0022757A /* JYStarLevelViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7200EC41EBB142C0022757A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7200ECD1EBB142C0022757A /* JYStarLevelViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7200EBF1EBB142C0022757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7200EA81EBB142C0022757A /* JYStarLevelView */;
+			targetProxy = D7200EBE1EBB142C0022757A /* PBXContainerItemProxy */;
+		};
+		D7200ECA1EBB142C0022757A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7200EA81EBB142C0022757A /* JYStarLevelView */;
+			targetProxy = D7200EC91EBB142C0022757A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7200EB01EBB142C0022757A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7200EB11EBB142C0022757A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7200EB51EBB142C0022757A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7200EB61EBB142C0022757A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7200ECF1EBB142C0022757A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7200ED01EBB142C0022757A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7200ED21EBB142C0022757A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2S2575EP7;
+				INFOPLIST_FILE = JYStarLevelView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.JYStarLevelView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7200ED31EBB142C0022757A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2S2575EP7;
+				INFOPLIST_FILE = JYStarLevelView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.JYStarLevelView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D7200ED51EBB142C0022757A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y2S2575EP7;
+				INFOPLIST_FILE = JYStarLevelViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.JYStarLevelViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYStarLevelView.app/JYStarLevelView";
+			};
+			name = Debug;
+		};
+		D7200ED61EBB142C0022757A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y2S2575EP7;
+				INFOPLIST_FILE = JYStarLevelViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.JYStarLevelViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYStarLevelView.app/JYStarLevelView";
+			};
+			name = Release;
+		};
+		D7200ED81EBB142C0022757A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y2S2575EP7;
+				INFOPLIST_FILE = JYStarLevelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.JYStarLevelViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JYStarLevelView;
+			};
+			name = Debug;
+		};
+		D7200ED91EBB142C0022757A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y2S2575EP7;
+				INFOPLIST_FILE = JYStarLevelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.JYStarLevelViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JYStarLevelView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7200EA41EBB142C0022757A /* Build configuration list for PBXProject "JYStarLevelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7200ECF1EBB142C0022757A /* Debug */,
+				D7200ED01EBB142C0022757A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7200ED11EBB142C0022757A /* Build configuration list for PBXNativeTarget "JYStarLevelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7200ED21EBB142C0022757A /* Debug */,
+				D7200ED31EBB142C0022757A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7200ED41EBB142C0022757A /* Build configuration list for PBXNativeTarget "JYStarLevelViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7200ED51EBB142C0022757A /* Debug */,
+				D7200ED61EBB142C0022757A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7200ED71EBB142C0022757A /* Build configuration list for PBXNativeTarget "JYStarLevelViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7200ED81EBB142C0022757A /* Debug */,
+				D7200ED91EBB142C0022757A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7200EA11EBB142C0022757A /* Project object */;
+}
